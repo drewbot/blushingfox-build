@@ -53,6 +53,17 @@ p {
     font-weight: 300;
     line-height: 30px;
     color: #575757;
+
+    a {
+        color: #E3472E;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+            color: #F6553C;
+            text-decoration: underline;
+        }
+    }
 }
 
 @media (max-width: 500px) {
