@@ -163,7 +163,7 @@ header {
 .logo {
   display: block;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 65px;
   margin-bottom: 55px;
   cursor: pointer; }
 
@@ -178,7 +178,7 @@ header {
   vertical-align: middle;
   color: #E3472E;
   cursor: pointer;
-  z-index: 9999; }
+  z-index: 9990; }
   .menu-icon span, .menu-x-icon span {
     display: inline-block;
     margin-top: -7px;
@@ -189,6 +189,11 @@ header {
     color: #F6553C; }
   .menu-icon:active, .menu-x-icon:active {
     color: #F6553C; }
+
+.menu-icon {
+  width: 100%;
+  background-color: #fff;
+  text-align: right; }
 
 .menu-open {
   display: none; }
@@ -222,6 +227,17 @@ header {
   .back-button:active {
     color: #F6553C; }
 
+@media (max-width: 680px) {
+  .menu-icon, .menu-x-icon, .back-button {
+    font-size: 1.05em; }
+    .menu-icon span, .menu-x-icon span, .back-button span {
+      margin-top: -5px;
+      font-size: 2.5em; }
+
+  .menu-icon {
+    width: 100%;
+    background-color: #fff;
+    text-align: right; } }
 .nav {
   visibility: hidden;
   opacity: 0;
