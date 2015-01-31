@@ -68,8 +68,9 @@ img {
     color: #E3472E;
     text-decoration: none; }
     .intro-copy span:hover {
-      cursor: pointer;
-      color: #F6553C; }
+      color: #F6553C;
+      text-decoration: underline;
+      cursor: pointer; }
 
 @media (max-width: 1000px) {
   .intro-copy {
@@ -334,7 +335,7 @@ footer {
     width: 680px; } }
 @media (max-width: 680px) {
   .dynamic-gallery {
-    width: 360px; } }
+    width: 310px; } }
 .gallery-image {
   position: relative;
   margin: 10px 10px 6px 10px;
@@ -362,6 +363,12 @@ footer {
     opacity: 1;
     -webkit-transition: all 0.3s ease; }
 
+figure img {
+  width: 300px; }
+
+@media (max-width: 680px) {
+  figure img {
+    width: 264px; } }
 figcaption {
   visibility: hidden;
   opacity: 0;

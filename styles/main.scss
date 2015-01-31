@@ -90,8 +90,9 @@ img {
         text-decoration: none;
 
         &:hover {
-            cursor: pointer;
             color: #F6553C;
+            text-decoration: underline;
+            cursor: pointer;
         }
     }
 }
@@ -488,7 +489,7 @@ footer {
 
 @media (max-width: 680px) {
     .dynamic-gallery {
-        width: 360px;
+        width: 310px;
     }
 }
 
@@ -530,6 +531,16 @@ footer {
                 -webkit-transition: all 0.3s ease;
             }
         }
+    }
+}
+
+figure img {
+    width: 300px;
+}
+
+@media (max-width: 680px) {
+    figure img {
+        width: 264px;
     }
 }
 
