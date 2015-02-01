@@ -118,7 +118,8 @@ textarea {
   float: right;
   width: 120px;
   background-color: #E3472E;
-  color: #FFF; }
+  color: #FFF;
+  border-radius: none; }
   #ss-submit:hover {
     cursor: pointer; }
 
@@ -254,7 +255,7 @@ header {
   font-weight: 100;
   text-align: center;
   line-height: 2.4em;
-  background-color: rgba(59, 59, 59, 0.87);
+  background-color: rgba(59, 59, 59, 0.93);
   cursor: pointer;
   z-index: 9980;
   -webkit-transition: all 0.4s ease; }
@@ -287,7 +288,10 @@ header {
 
 @media (max-width: 680px) {
   .nav li {
-    width: 100%; } }
+    width: 100%; }
+
+  .nav-social {
+    padding-left: 19px; } }
 .show-nav {
   visibility: visible;
   opacity: 1;
@@ -323,6 +327,9 @@ footer {
     text-decoration: underline;
     font-weight: 300; }
 
+@media (max-width: 742px) {
+  .footer-nav a {
+    padding: 0 11px 0 0; } }
 .footer-selected {
   color: #C4C4C4; }
   .footer-selected:hover {
@@ -454,6 +461,11 @@ figcaption {
 @media (max-width: 1000px) {
   .about-copy img {
     margin: 30px 0 0 0; } }
+@media (max-width: 680px) {
+  .about-copy h3 {
+    padding-top: 0; }
+  .about-copy img:last-of-type {
+    margin-top: 0; } }
 /* ---- Blog ---- */
 .tumblr_posts {
   list-style: none;
@@ -469,6 +481,7 @@ figcaption {
     border-bottom: 1px solid #000;
     text-align: center; }
   .tumblr_posts img {
+    margin: 0 auto;
     width: 100%;
     max-width: 340px; }
 
