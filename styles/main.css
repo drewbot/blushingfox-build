@@ -256,7 +256,7 @@ header {
   line-height: 2.4em;
   background-color: rgba(59, 59, 59, 0.87);
   cursor: pointer;
-  z-index: 9998;
+  z-index: 9980;
   -webkit-transition: all 0.4s ease; }
   .nav a {
     color: #FFF;
