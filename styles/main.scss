@@ -557,12 +557,6 @@ footer {
                 opacity: 0.5;
                 -webkit-transition: all 0.3s ease;
             }
-
-            .overlay-icon {
-                visibility: visible;
-                opacity: 1;
-                -webkit-transition: all 0.3s ease;
-            }
         }
     }
 }
@@ -574,6 +568,28 @@ figure img {
 @media (max-width: 680px) {
     figure img {
         width: 264px;
+    }
+}
+
+figure span {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    font-family: 'icon';
+    font-size: 2.2em;
+    vertical-align: middle;
+    color: #fff;
+    cursor: pointer;
+    z-index: 91;
+    -webkit-transition: all 0.3s ease;
+}
+
+@media (max-width: 1000px) {
+    figure span {
+        visibility: visible;
+        opacity: 0.5;
     }
 }
 
