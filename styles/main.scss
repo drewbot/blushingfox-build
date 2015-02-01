@@ -322,6 +322,7 @@ header {
 
 @media (max-width: 680px){
     .menu-icon, .menu-x-icon, .back-button {
+        padding: 10px 25px 10px 20px;
         font-size: 1.05em;
         span {
             margin-top: -5px;
@@ -330,7 +331,7 @@ header {
     }
     .menu-icon, {
         width: 100%;
-        background-color: #fff;
+        background: rgba(255,255,255, 1);
         text-align: right;
     }
 }
@@ -510,6 +511,7 @@ footer {
 
 @media (max-width: 680px) {
     .dynamic-gallery {
+        padding: 10px 15px 0 15px;
         width: 310px;
     }
 }
