@@ -37,9 +37,10 @@ $(window).load(function(){
 	$('.filter-all-button').click(function(){
 		if (!filterOneClicked && !filterTwoClicked && !filterAllClicked) {
 			$('.filter-tip').fadeIn( 400 ).delay( 5000 ).fadeOut( 400 );
-		}	
-		filterAllClicked = true;
-		$('.dynamic-gallery').isotope({ filter: '*' });
+		} else {
+			filterAllClicked = true;
+			$('.dynamic-gallery').isotope({ filter: '*' });
+		}
 	})
 
 });
